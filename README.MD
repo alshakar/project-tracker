@@ -83,6 +83,8 @@ Project Follow-up Tracker helps project managers monitor deliverables owned by o
 - Uses `Intl.PluralRules` for day/days wording.
 - Uses `<bdi>` and direction-aware rendering for mixed Arabic and English content.
 - Keeps interface copy in an English and Arabic translation object.
+- Bundles IBM Plex Sans and IBM Plex Sans Arabic as local WOFF2 assets for offline use.
+- Includes Regular (400) and SemiBold (600) weights under [`fonts/`](./fonts/) and the SIL Open Font License in [`fonts/OFL.txt`](./fonts/OFL.txt).
 
 ### Responsive layout and accessibility
 - Mobile-first layout designed around a 360px-wide phone.
